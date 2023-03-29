@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number to words</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"> Kjemi </a>
+           
+           
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav"> 
+            <a href="#"> Memori</a>
+            <a href="grunstoff.html"> Atomnummer</a>
+            <a href="omregner.html"> Stoffmengde</a>
+        </div>
+    </div>
+
+    <main>
+      <div class="innledning">
+        <h3>Finn ut hvilket grunnstoff det er!</h3>
+     </div>
+        <div class="container">
+            <div class="top">
+                <form id="form">
+                    <label for="atomnummer">Skriv et atomnummer:</label>
+                    <input type="nummer" id="atomnummer" name="atomnummer" />
+                    <button>Hva er atomet?</button>
+                  </form>
+            </div>
+            <div class="bund">
+                <div id="atom"></div> 
+            </div>
+            
+        </div>
+    
+      
+    </main>
+
+    <script src="java.js"></script>
+
+  </body>
+</html>

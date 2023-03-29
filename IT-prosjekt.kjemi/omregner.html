@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ommregner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"> Kjemi </a>
+            <i class="fa-solid fa-bars"> </i>
+        </div>
+        <div class="nav"> 
+            <a href="#"> Memori</a>
+            <a href="grunstoff.html"> Atomnummer</a>
+            <a href="omregner.html"> Stoffmengde</a>
+        </div>
+    </div>
+
+<main>
+    <div class="innledning">
+       <h3>En enkel stoffmengde kalkulator!</h3>
+    </div>
+    <div class="container">
+        <div class="top">
+                <form id="omregnerForm">
+                    <label for="masse">Massen (g): </label>
+                    <input type="nummer" id="masse" name="masse" />
+        
+                    <label for="molarMasse">Molar masse(g/mol):</label>
+                    <input type="nummer" id="molarMasse" name="molarMasse" />
+        
+                    <button>Hva er stoffmengde?</button>
+                </form>
+        </div>
+      <div class="bund">
+            <div id="stoffmengde"></div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="top">
+                <form id="omregnerForm2">
+                    <label for="konsentrasjon">Konsentrasjon (mol/l): </label>
+                    <input type="nummer" id="konsentrasjon" name="konsentrasjon" />
+        
+                    <label for="volum">Volum (l):</label>
+                    <input type="nummer" id="volum" name="volum" />
+        
+                    <button>Hva er stoffmengde?</button>
+                </form>
+        </div>
+      <div class="bund">
+            <div id="stoffmengde"></div>
+      </div>
+    </div>
+ 
+</main>
+<script src="omregnerScript.js"></script>
+
+
+            
+
+</body>
+</html>

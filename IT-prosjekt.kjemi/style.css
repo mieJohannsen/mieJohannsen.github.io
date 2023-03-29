@@ -1,0 +1,114 @@
+
+body{
+    margin: 0px;
+    background-color: rgba(207,221,236,255)
+    ;
+}
+
+.innledning{
+    color: rgba(0,68,140,1);
+    margin-bottom: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    max-width: 400px;
+    background-color:rgba(0,68,140,1);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.container > div {
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+    height: 200px;
+}
+
+.top > form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+}
+
+.bund{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+   
+}
+
+.bakgrund{
+    background-image: url("enkelBlå.webp");
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: rgba(255,255,255,255);
+
+}
+#index{
+    background-color:rgba(0,68,140,0.9);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+@media(max-width:600px){
+
+    .container{
+        width: 200px;
+    }
+    .top > form{
+        align-items: center;
+    }
+    .bund{
+        height: 80px;
+    }
+    label{
+        margin-left: 25px;
+    }
+    #index{
+        max-width: 90%;
+    }
+}
+
+
+
